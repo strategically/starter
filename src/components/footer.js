@@ -2,6 +2,7 @@
 
 import { Link } from "gatsby"
 import React from "react"
+import "../styles/footer.css"
 
 const LinkStyle = {
   color: `white`,
@@ -11,13 +12,7 @@ const LinkStyle = {
 
 const Footer = () => (
   <footer className="common-width-style"> 
-    <div 
-      style={{ 
-        paddingTop: `18px`, 
-        // fontFamily: `open sans condensed`, 
-        fontSize: `12px`,
-      }}
-    > 
+    <div id="footer-content"> 
       <div style={{ display: `inline-block`, }}>
         <Link to="/" style={LinkStyle}>
           © {new Date().getFullYear()} {` `} Strategically Digital Marketing ltd
