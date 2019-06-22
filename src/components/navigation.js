@@ -11,7 +11,7 @@ const LinkStyle = {
 const Navigation = () => (
     <div>
         <Link to="/contact" style={ LinkStyle }>
-            <img src={phoneicon} alt="phone-icon" height="55" width="55"/>
+            <img src={phoneicon} alt="phone-icon" height="45" width="45"/>
         </Link>
 
         {/* <Link to="/" style={{textDecoration: `none`, color: `white`, marginLeft: `16px`}} >

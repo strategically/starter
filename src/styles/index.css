@@ -17,11 +17,12 @@
 #para2 {
     font-size: 27px;
     font-weight: 400;
-    line-height: 250%;
+    line-height: 120%;
     color: white;
     margin-top: 25px;
-    text-align: justify;
-    text-justify: inter-word;
+    /* text-align: justify; */
+    /* text-justify: inter-word; */
+    margin-right: 240px;
 }
 #para3 {
     margin-top: 60px;
