@@ -10,9 +10,9 @@ const LinkStyle = {
 
 const Navigation = () => (
     <div>
-        <Link to="/contact" style={ LinkStyle }>
+        <a href="tel:+34612401232" style={ LinkStyle }>
             <img src={phoneicon} alt="phone-icon" height="45" width="45"/>
-        </Link>
+        </a>
 
         {/* <Link to="/" style={{textDecoration: `none`, color: `white`, marginLeft: `16px`}} >
             Contact
