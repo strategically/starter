@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import 'bootstrap/dist/js/bootstrap.min.js' // Carousel, etc.
+// import 'bootstrap/dist/js/bootstrap.min.js' // Carousel, etc.
 import SLayout from "../components/slayout/slayout"
 import Logo from "../components/logo";
 

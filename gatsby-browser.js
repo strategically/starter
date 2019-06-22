@@ -7,4 +7,4 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap-grid.css";
 // Local overrides
-import "./src/styles/global.css";
+// import "./src/styles/global.css";
