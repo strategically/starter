@@ -1,9 +1,9 @@
 /* CSS for the index page */
 #index-main {
-    margin-top: 30px;
+    margin-top: 50px;
  }
  #para1 {
-    font-size: 36px;
+    font-size: 64px;
     font-weight: 800;
     line-height: 120%;
     margin-top: 25px;
@@ -15,9 +15,9 @@
     color: #FC961E;
 }
 #para2 {
-    font-size: 16px;
+    font-size: 27px;
     font-weight: 400;
-    line-height: 120%;
+    line-height: 250%;
     color: white;
     margin-top: 25px;
     text-align: justify;

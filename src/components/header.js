@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
             <div 
                 style={{ 
                 display: `inline-block`, 
-                fontSize: `24px`, 
+                fontSize: `40px`, 
                 fontWeight: `bold`,
                 paddingTop: `20px`,
                 }}

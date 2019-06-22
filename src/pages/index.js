@@ -16,8 +16,8 @@ const IndexPage = ({ data }) => (
                 <span id="line2">help you grow.</span>
             </p>
             <p id="para2">
-                Our content marketing services are SEO-focused, customer-driven and 
-                proven to deliver. We'll get you the traffic, links and rankings that
+                Our content marketing services are SEO-focused, <br />customer-driven and 
+                proven to deliver. <br />We'll get you the traffic, links and rankings that
                 drive big growth.
             </p>
             <p id="para3">
