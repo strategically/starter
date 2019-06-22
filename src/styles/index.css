@@ -1,0 +1,51 @@
+/* CSS for the index page */
+#index-main {
+    margin-top: 30px;
+ }
+ #para1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    margin-top: 25px;
+}
+#line1 {
+    color: white;
+}
+#line2 {
+    color: #FC961E;
+}
+#para2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    color: white;
+    margin-top: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#para3 {
+    margin-top: 60px;
+}
+#para3 .btn-primary {
+    font-size: 12px;
+    padding: 15px 20px;
+    font-weight: 800;
+}
+/* Smartphones */
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    /* Font size for para 1*/
+    #para1 {
+        font-size: 24px;
+    }
+}
+/* Tablets */
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    /* Font size for para 1*/
+    #para1 {
+        font-size: 24px;
+    }
+}
+/* Desktops */
+@media only screen and (min-width: 768px) and (max-width: 991px){ }
+/* large screen */
+@media only screen and (min-width: 992px){ }

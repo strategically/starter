@@ -1,0 +1,34 @@
+/* CSS for the thank you page */
+section {
+    margin-top: 30px;
+}
+#para {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+    color: white;
+    margin-top: 20px;
+}
+#thank-you-content .btn-primary {
+    font-size: 12px;
+    padding: 10px 15px;
+    font-weight: 800;
+}
+/* Smartphones */
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    /* Font size for para 1*/
+    #para {
+        font-size: 14px;
+    }
+}
+/* Tablets */
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    /* Font size for para 1*/
+    #para {
+        font-size: 14px;
+    }
+}
+/* Desktops */
+@media only screen and (min-width: 768px) and (max-width: 991px){ }
+/* large screen */
+@media only screen and (min-width: 992px){ }

@@ -1,0 +1,13 @@
+/* Some common styling goes here */
+.btn-primary {
+    color: black;
+    background-color: #FC961E;
+    border-color: #FC961E;
+    text-transform: uppercase;
+}
+.btn-primary:hover {
+    color: white;
+    /* background-color: transparent; */
+    background-color: rgb(184, 96, 8);
+    border-color: #FC961E;
+}
