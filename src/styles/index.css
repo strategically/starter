@@ -36,22 +36,22 @@
 @media only screen and (min-width: 320px) and (max-width: 479px){ 
     /* Font size for para 1*/
     #para1 {
-        font-size: 18px;
+        font-size: 48px;
     }
     #para2 {
-        font-size: 12px;
-        margin-right: 50px;
+        font-size: 26px;
+        margin-right: 5px;
     }
-    #para3 .btn-primary {
+    /* #para3 .btn-primary {
         font-size: 10px;
         padding: 10px 15px;
         font-weight: 700;
-    }
+    } */
 }
 /* Tablets */
 @media only screen and (min-width: 480px) and (max-width: 767px){ 
     /* Font size for para 1*/
-    #para1 {
+    /* #para1 {
         font-size: 24px;
     }
     #para2 {
@@ -60,7 +60,7 @@
     }
     #para3 .btn-primary {
         font-size: 11px;
-    }
+    } */
 }
 /* Desktops */
 @media only screen and (min-width: 768px) and (max-width: 991px){ }

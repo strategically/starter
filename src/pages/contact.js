@@ -18,7 +18,8 @@ const Contact = () => (
         className="contact-form-style"
       >
         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-        <input type="hidden" name="form-name" value="contact" />
+        {/* <input type="hidden" name="form-name" value="contact" /> */}
+        <input type="hidden" name="bot-field" />
         <div id="form-header">
             <h2>Contact us</h2>
             <p id="para1">Please leave us a detailed message and we will respond shortly. Thank you.</p>
