@@ -1,15 +1,12 @@
-#footer-content {
-    font-family: montserrat;
-    padding-top: 18px; 
-    font-size: 11px;
+img {
+    height: 45px;
+    width: 45px;
 }
-
 /* Smartphones */
 @media only screen and (min-width: 320px) and (max-width: 479px){ 
-    /* Font size for footer content*/
-    #footer-content {
-        padding-top: 20px; 
-        font-size: 9px;
+    img {
+        height: 40px;
+        width: 40px;
     }
 }
 /* Tablets */

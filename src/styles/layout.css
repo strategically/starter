@@ -4,8 +4,7 @@
    Used in Layout component (i.e. layout.js)
    ----------------------------------------------------------
 */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 * {
     box-sizing: border-box;
  }
@@ -20,7 +19,6 @@
     height: 100%;
     width: 100%;
     position: relative;
-    font-family: 'Montserrat', Roboto, georgia, serif;
  }
  #layout-container {
     min-height: 100vh; /* will cover the 100% of viewport */

@@ -8,7 +8,7 @@ import "../styles/common.css"
 const Contact = () => (
   <Layout>
     <SEO title="Contact" />
-    <div>
+    <div id="contact-content">
       <form 
         name="contact" 
         method="post" 

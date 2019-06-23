@@ -1,12 +1,12 @@
 /* CSS for the index page */
 #index-main {
     margin-top: 90px;
+    font-family: montserrat;
  }
  #para1 {
     font-size: 64px;
     font-weight: 800;
     line-height: 120%;
-    margin-top: 25px;
 }
 #line1 {
     color: white;
@@ -36,7 +36,16 @@
 @media only screen and (min-width: 320px) and (max-width: 479px){ 
     /* Font size for para 1*/
     #para1 {
-        font-size: 24px;
+        font-size: 18px;
+    }
+    #para2 {
+        font-size: 12px;
+        margin-right: 50px;
+    }
+    #para3 .btn-primary {
+        font-size: 10px;
+        padding: 10px 15px;
+        font-weight: 700;
     }
 }
 /* Tablets */
@@ -44,6 +53,13 @@
     /* Font size for para 1*/
     #para1 {
         font-size: 24px;
+    }
+    #para2 {
+        font-size: 14px;
+        margin-right: 150px;
+    }
+    #para3 .btn-primary {
+        font-size: 11px;
     }
 }
 /* Desktops */

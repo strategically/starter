@@ -1,5 +1,7 @@
  /* This css is for contact page */
- 
+ #contact-content {
+    font-family: montserrat;
+ }
 .contact-form-style{
 	max-width: 450px;
     background: #FAFAFA;
