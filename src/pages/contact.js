@@ -18,8 +18,8 @@ const Contact = () => (
         className="contact-form-style"
       >
         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-        {/* <input type="hidden" name="form-name" value="contact" /> */}
-        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
+        {/* <input type="hidden" name="bot-field" /> */}
         <div id="form-header">
             <h2>Contact us</h2>
             <p id="para1">Please leave us a detailed message and we will respond shortly. Thank you.</p>
@@ -59,7 +59,7 @@ const Contact = () => (
         </div>
         <div className="form-row mt-3 text-muted">
             <div className="form-group col-auto" id="touch-btn">
-                <button type={"submit"} className="btn btn-primary">Get in touch</button>
+                <button type="submit" className="btn btn-primary">Get in touch</button>
             </div>
             <div id="info-icon" className="ml-1">&#9432;</div>
             <div className="form-group col mt-1">
