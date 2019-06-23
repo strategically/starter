@@ -28,33 +28,33 @@ const Contact = () => (
         <div className="form-row field-font-size">
             <div className="form-group col-6"> {/* col-sm-6 col-12 */}
                 <label htmlFor="first_name" className="small text-secondary form-text">First name</label>
-                <input type={'text'} className="form-control" id="first_name" placeholder={'David'} />
+                <input type="text" name="first_name" className="form-control" id="first_name" placeholder={'David'} />
             </div>
             <div className="form-group col-6">
                 <label htmlFor="last_name" className="small text-secondary form-text">Last name</label>
-                <input type={'text'} className="form-control " id="last_name" placeholder={'Hendricks'} />
+                <input type="text" name="last_name" className="form-control" id="last_name" placeholder={'Hendricks'} />
             </div>
         </div>
         <div className="form-row field-font-size">
             <div className="form-group col-6">
                 <label htmlFor="email" className="small text-secondary form-text">Work Email</label>
-                <input type={'text'} className="form-control" placeholder={'david@bankuk.com'} />
+                <input type="text" name="email" className="form-control" placeholder={'david@bankuk.com'} />
             </div>
             <div className="form-group col-6">
                 <label htmlFor="phone" className="small text-secondary form-text">Phone Number</label>
-                <input type={'text'} className="form-control" placeholder={'000-000-0000'} />
+                <input type="text" name="phone" className="form-control" placeholder={'000-000-0000'} />
             </div>
         </div>
         <div className="form-row field-font-size">
             <div className="form-group col-12">
                 <label htmlFor="company" className="small text-secondary form-text">Company</label>
-                <input type={'text'} className="form-control" placeholder={'Bankuk'} />
+                <input type="text" name="company" className="form-control" placeholder={'Bankuk'} />
             </div>
         </div>
         <div className="form-row field-font-size">
             <div className='form-group col-12'>
                 <label htmlFor="message" className="small text-secondary form-text">Your message</label>
-                <textarea className="form-control" placeholder={'Tell us about your needs, timeline and any questions you have and we will be in contact shortly'} />
+                <textarea className="form-control" name="message" placeholder={'Tell us about your needs, timeline and any questions you have and we will be in contact shortly'} />
             </div>
         </div>
         <div className="form-row mt-3 text-muted">
