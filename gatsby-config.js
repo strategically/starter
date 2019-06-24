@@ -27,7 +27,7 @@ module.exports = {
         icon: `src/images/phoneicon.png`, // This path is relative to the root of the site.
       },
     },
-    {
+    /*{
       resolve: `gatsby-source-wordpress`,
       options: {
         // your wordpress source
@@ -38,7 +38,7 @@ module.exports = {
         // does your site use the Advanced Custom Fields Plugin?
         useACF: false
       }
-    }
+    }*/
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

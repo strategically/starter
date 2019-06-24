@@ -1,3 +1,4 @@
+/*
 import React, { Component } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout/layout"
@@ -32,3 +33,5 @@ export const pageQuery = graphql`
     }
     }
 `
+
+*/

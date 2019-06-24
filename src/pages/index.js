@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
         <main id="index-main">
             <p id="para1"> 
                 <span id="line1">We create content that ranks and</span><br/>
-                <span id="line2">help you grow.</span>
+                <span id="line2">helps you grow.</span>
             </p>
             <div id="para2">
                 Our content marketing services are SEO-focused, customer-driven and 
