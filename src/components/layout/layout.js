@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
                           <ul className="list-unstyled nav">
                               <li className="nav-item mx-2">© {new Date().getFullYear()}, {` `} <a href="https://strategically.co/">Strategically</a></li>
                               <li className="mx-2">
-                                  <Link to="https://bitbucket.org/strategically/gatsby/src/master/">
+                                  <Link to="#">
                                   Bitbucket
                                   </Link>
                               </li>
