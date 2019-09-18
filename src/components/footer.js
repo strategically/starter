@@ -19,7 +19,7 @@ const Footer = () => (
       <div style={{ display: `inline-block`, float: `right`, color: `white`,}}>
         <a href="https://bitbucket.org/strategically/gatsby/src/master/" style={LinkStyle}>
           Bitbucket
-        </Link>
+        </a>
         {' | '}
         <Link to="/" style={LinkStyle}>
           Terms
