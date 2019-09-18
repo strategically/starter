@@ -15,12 +15,12 @@ const Footer = () => (
     <div id="footer-content"> 
       <div style={{ display: `inline-block`, }}>
         <Link to="/" style={LinkStyle}>
-          © {new Date().getFullYear()} {` `} Strategically Digital Marketing ltd
+          © {new Date().getFullYear()} {` `} Strategically Digital Marketing Ltd
         </Link>
       </div>
       <div style={{ display: `inline-block`, float: `right`, color: `white`,}}>
-        <Link to="/" style={LinkStyle}>
-          Privacy
+        <Link to="https://bitbucket.org/strategically/gatsby/src/master/" style={LinkStyle}>
+          Bitbucket
         </Link>
         {' | '}
         <Link to="/" style={LinkStyle}>
