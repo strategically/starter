@@ -30,21 +30,16 @@ const Layout = ({ children }) => (
                   <div className="row">
                       <div className="col-8">
                           <ul className="list-unstyled nav">
-                              <li className="nav-item mx-2">© {new Date().getFullYear()}, {` `} <a href="https://strategically.co">Strategically</a></li>
+                              <li className="nav-item mx-2">© {new Date().getFullYear()}, {` `} <a href="https://strategically.co/">Strategically</a></li>
                               <li className="mx-2">
-                                  <Link to="#">
-                                  Privacy
+                                  <Link to="https://bitbucket.org/strategically/gatsby/src/master/">
+                                  Bitbucket
                                   </Link>
                               </li>
                               <li className="mx-2">
                                   <Link to="#">
                                       Terms
                                   </Link>
-                              </li>
-                              <li className="mx-2">
-                              <Link to="#">
-                                  GDPR
-                              </Link>
                               </li>
                           </ul>
                       </div>
