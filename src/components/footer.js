@@ -14,9 +14,7 @@ const Footer = () => (
   <footer className="common-width-style"> 
     <div id="footer-content"> 
       <div style={{ display: `inline-block`, }}>
-        <Link to="/" style={LinkStyle}>
-          © {new Date().getFullYear()} {` `} Strategically Digital Marketing Ltd
-        </Link>
+        <li className="nav-item mx-2">© {new Date().getFullYear()}, {` `} <a href="https://strategically.co/">Strategically</a></li>
       </div>
       <div style={{ display: `inline-block`, float: `right`, color: `white`,}}>
         <Link to="https://bitbucket.org/strategically/gatsby/src/master/" style={LinkStyle}>
