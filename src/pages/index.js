@@ -12,13 +12,11 @@ const IndexPage = ({ data }) => (
     <div>
         <main id="index-main">
             <p id="para1"> 
-                <span id="line1">We create content that ranks and</span><br/>
-                <span id="line2">helps you grow.</span>
+                <span id="line1">Hi, I'm Purple Page.</span><br/>
+                <span id="line2">A simple Gatsby starter.</span>
             </p>
             <div id="para2">
-                Our content marketing services are SEO-focused, customer-driven and 
-                proven to deliver. We'll get you the traffic, links and rankings that
-                drive big growth.
+                A simple home page and contact page built with Gatsby.js, Bootstrap 4, Wordpress for a headless CMS and deployed to Netlify.
             </div>
             <p id="para3">
                 <Link className="btn btn-primary" to="/contact">
