@@ -14,7 +14,7 @@ const Footer = () => (
   <footer className="common-width-style"> 
     <div id="footer-content"> 
       <div style={{ display: `inline-block`, float: `left`, color: `white`,}}>
-        <li className="nav-item mx-2">© {new Date().getFullYear()}, {` `} <a href="https://strategically.co/">Strategically</a></li>
+        <li className="nav-item mx-2">© {new Date().getFullYear()}, {` `} <a href="https://strategically.co/" style={LinkStyle}>Strategically</a></li>
       </div>
       <div style={{ display: `inline-block`, float: `right`, color: `white`,}}>
         <a href="https://bitbucket.org/strategically/gatsby/src/master/" style={LinkStyle}>
